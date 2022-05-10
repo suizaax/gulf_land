@@ -110,7 +110,7 @@ const Home = () => {
             <Divider />
             <List sx={{ my: "auto" }}>
               <ListItem button data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
-                <Typography variant='h6' sx={{ fontFamily: "Montserrat" }}>
+                <Typography variant='h6' sx={{ fontFamily: "Montserrat", color: "white" }}>
                   <Link href={"/"}>Home</Link>
                 </Typography>
                 <ListItemText />
@@ -942,21 +942,30 @@ const Home = () => {
                   height={42}
                 />
                 <div style={{ flexGrow: 1 }}></div>
-                <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", color: "white", fontFamily: "Montserrat" }}>
-                  <Link href={"/"}>Home</Link>
-                </Button>
-                <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
-                  <Link href={"about-us"}>About Us</Link>
-                </Button>
-                <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
-                  <Link href={"why-dubai"}>Why Dubai</Link>
-                </Button>
+                
+                  <Link href={"/"} underline={"none"}>
+                  <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", color: "white", fontFamily: "Montserrat" }}>
+                    Home
+                  </Button>
+                  </Link>
+                <Link href={"about-us"} underline={"none"}>
+                  <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
+                    About Us
+                  </Button>
+                </Link>
+                  <Link href={"why-dubai"} underline={"none"}>
+                    <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
+                      Why Dubai
+                    </Button>
+                  </Link>
                 <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
                   Our Properties
                 </Button>
-                <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
-                  <Link href={"contact-us"}>Contact</Link>
-                </Button>
+                  <Link href={"contact-us"} underline={"none"}>
+                    <Button color='inherit' disableRipple sx={{ textTransform: "capitalize", ml: 2, color: "#DAD3C7", fontFamily: "Montserrat" }}>
+                      Contact
+                    </Button>
+                  </Link>
               </Toolbar>
             </Container>
           </AppBar>
