@@ -1,0 +1,35 @@
+{
+  "name": "gulf_land_redesign",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "@mui/styles": "^5.6.2",
+    "@react-google-maps/api": "^2.8.1",
+    "aos": "^2.3.4",
+    "next": "^12.1.2",
+    "next-optimized-images": "^2.6.2",
+    "react": "^17.0.2",
+    "react-countup": "^6.2.0",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-iframe": "^1.8.0",
+    "react-material-ui-carousel": "^3.3.3",
+    "react-player": "^2.10.0",
+    "swiper": "^8.0.7",
+    "video-react": "^0.15.0"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2"
+  }
+}
