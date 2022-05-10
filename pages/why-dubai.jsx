@@ -135,7 +135,7 @@ const WhyDubai = () => {
                 </Box>
                 <Paper elevation={0} id='hero section' sx={{ height: "600px" }}>
                     <div className='heroVideoMobile'>
-                        <img src='https://res.cloudinary.com/suizaax/image/upload/v1652049045/output-onlinegiftools_1_1_mcdh6w.gif' style={{ objectFit: "cover", backgroundPosition: "center" }} height="700px" width={"100%"}></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/mamgroupsauth.appspot.com/o/Wondershare%20UniConverter%2013_000006.GIF?alt=media&token=5f597ee2-e164-4b5e-b548-a84ba08de8a1' style={{ objectFit: "cover", backgroundPosition: "center" }} height="700px" width={"100%"}></img>
                         {/* <video
                             autoPlay
                             muted

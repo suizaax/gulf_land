@@ -62,7 +62,9 @@ const Home = () => {
       <div>
         <Box sx={{ flexGrow: 1 }}>
           <Box height={50} width={40}>
+            <div>
             <h5>hello</h5>
+            </div>
           </Box>
           <AppBar position="absolute" sx={{ backgroundColor: "#0F0F0F" }}>
             <Toolbar>
@@ -142,7 +144,7 @@ const Home = () => {
         </Box>
         <Paper elevation={0} id='hero section' sx={{ height: "590px" }}>
           <div className='heroVideoMobile'>
-            <img src='https://res.cloudinary.com/suizaax/image/upload/v1652049045/output-onlinegiftools_1_1_mcdh6w.gif' style={{ objectFit: "cover", backgroundPosition: "center" }} height="690px" width={"100%"}></img>
+            <img src='https://firebasestorage.googleapis.com/v0/b/mamgroupsauth.appspot.com/o/Wondershare%20UniConverter%2013_000006.GIF?alt=media&token=5f597ee2-e164-4b5e-b548-a84ba08de8a1' style={{ objectFit: "cover", backgroundPosition: "center" }} height="690px" width={"100%"}></img>
             {/* <video
               autoPlay
               muted
@@ -395,7 +397,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1oV55-D78M-AdmYtBrVXRyw15670Zb4zC' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/phLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
@@ -581,7 +583,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1tw-lhNkFxTkVZaseN5_SXR7wB3KLmn4n' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/slLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
@@ -766,7 +768,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1tw-lhNkFxTkVZaseN5_SXR7wB3KLmn4n' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/slLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
@@ -1194,7 +1196,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1oV55-D78M-AdmYtBrVXRyw15670Zb4zC' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/phLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
@@ -1371,7 +1373,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1tw-lhNkFxTkVZaseN5_SXR7wB3KLmn4n' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/slLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
@@ -1548,7 +1550,7 @@ const Home = () => {
               </a>
               <a href='https://drive.google.com/uc?export=download&id=1tw-lhNkFxTkVZaseN5_SXR7wB3KLmn4n' rel='noopener'>
                 <Image
-                  src={"/pdf.png"}
+                  src={"/slLogo.png"}
                   width={'60'}
                   height={"60"}
                   alt="pdf icon"
