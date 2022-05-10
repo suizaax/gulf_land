@@ -1,7 +1,6 @@
-import { AppBar, Button, Container, Grid, IconButton, Paper, Toolbar, Typography, List, ListItem, ListItemText, Drawer, Divider } from '@mui/material'
+import { AppBar, Button, Container, Grid, IconButton, Paper, Toolbar, Typography, List, ListItem, ListItemText, Drawer, Divider, Link } from '@mui/material'
 import { Box } from '@mui/system'
 import Image from 'next/image'
-import Link from 'next/link'
 import React, { useEffect } from 'react'
 import Carousel from 'react-material-ui-carousel'
 import Footer from '../components/Footer'
