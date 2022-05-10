@@ -139,7 +139,7 @@ const News = () => {
                 </Box>
                 <Paper elevation={0} id='hero section' sx={{ height: "500px" }}>
                     <div className='heroVideoMobile'>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/mamgroupsauth.appspot.com/o/Wondershare%20UniConverter%2013_000006.GIF?alt=media&token=5f597ee2-e164-4b5e-b548-a84ba08de8a1' style={{ objectFit: "cover", backgroundPosition: "center" }} height="600px" width={"100%"}></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/mamgroupsauth.appspot.com/o/Wondershare%20UniConverter%2013_000001.GIF?alt=media&token=d7928812-426d-4e13-b0a4-a7b9df8c3501' style={{ objectFit: "cover", backgroundPosition: "center" }} height="600px" width={"100%"}></img>
                         {/* <video
                             autoPlay
                             muted
